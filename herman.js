@@ -162,7 +162,7 @@ module.exports = simple = async (simple, mek, _welkom) => {
 				group: 'Fitur Khusus Grup !!'
 			}
 		}
-		faketeks = '©Hêrmåñ メ Bo†z ×͜×' //Ganti Aja Nama Luh
+		faketeks = '©Yåñz メ Bo†z ×͜×' //Ganti Aja Nama Luh
 		const isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -593,7 +593,7 @@ reply('_*Tunggu Sebentar*_. . .')
 simple.updatePresence(from, Presence.recording)		
 img =  fs.readFileSync('./poto/ngapasiKawan.mp4')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+I'M Yåñz メ Bo†z ×͜×`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -603,7 +603,7 @@ trans = `BOT INFO
 🕟  _Jam : ${time}_
 
 _*JIKA BUTTON TIDAK TERLIHAT KETIK .allmenu*_
- © _${week} ${weton} ${date}_`
+ © _YanzBotz_`
  
  but = [
           { buttonId: `${prefix}command`, buttonText: { displayText: '×͜×MENU' }, type: 1 },
@@ -622,7 +622,7 @@ simple.updatePresence(from, Presence.recording)
 			simple.sendMessage(from, cowo, image, {caption: 'Ini Untuk »  *𝗖𝗼𝘄𝗼𝗸𝗻𝘆𝗮'})
        cewe = await getBuffer(anu.result.cewe_image)
 		    pll = `Ini Untuk » *𝗖𝗲𝘄𝗲𝗸𝗻𝘆𝗮*`
-   sendButImage(from, pll, `Hêrmåñ メ Bo†z ×͜× © 2021`, cewe, [                      
+   sendButImage(from, pll, `Yåñz メ Bo†z ×͜× © 2022`, cewe, [                      
           {
             buttonId: `${prefix}ppcouple`,
             buttonText: {
@@ -685,11 +685,11 @@ break
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
-               const yy = {title: 'Hêrmåñ メ Bo†z ×͜×',
+               const yy = {title: 'Yåñz メ Bo†z ×͜×',
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
-                        description: `SUBS HERMAN CHANEL`,
+                        description: `SUBS YANZ STORE`,
                         rowId: `${prefix}${x}`
                       }
                     ]
@@ -803,7 +803,7 @@ simple.updatePresence(from, Presence.recording)
                     rows: [
                        {
                         title: `${listmenuu[startnum++]}`,
-                        description: `©Hêrmåñ メ Bo†z ×͜×`,
+                        description: `©Yåñz メ Bo†z ×͜×`,
                         rowId: `${prefix}${x}`
                       }
                     ]
@@ -832,7 +832,7 @@ oy =`
 🐣 _Nomor User : ${sender.split('@')[0]}_
 _*Youtube Owner*_
 
-https://youtube.com/channel/UCPhU6uA_3gUaEvyrFZFgJqg
+https://youtube.com/channel/UCdTdvjr8-fSP2i_WBbCQjoA
 _SubsCribe_
 
 _*LANJUT? KLIK BUTTON DI BAWAH*_
@@ -882,16 +882,16 @@ Jam : ${time}
 HARI : ${week}, ${date}
 𝐃𝐨𝐧'𝐭 𝐒𝐩𝐚𝐦`
 oy =`
-*_Jasa Sewa Bot By : ©Hêrmåñ メ Bo†z ×͜×
+*_Jasa Sewa Bot By : ©Yåñz メ Bo†z ×͜×
 *>>>>>>>> *LIST HARGA* >>>>>>>>*
 [🔥] . _Fitur Bot Banyak And Ada Catalog Menu_
 
-🐣. _*2Minggu : Rp. 3.000 [ Promo ]*_
-🐣. _*1Bulan : Rp. 5.000 [ Promo ]*_
-🐣. _*Manent : Rp. 10.000 [ Promo ]*_
+🐣. _*2Minggu : Rp. 5.000*_
+🐣. _*1Bulan : Rp. 8.000*_
+🐣. _*Manent : Rp. 12.000 [ Promo ]*_
 
  _Jika Anda Minat Bisa Chat Nomer Ini_
-_*🪀 Wa.me/6283146208804*_
+_*🪀 Wa.me/48699530349*_
 _Note Jangan Spam_
 _*Maaf Jika Slow Respon Karena Sesuai Antrian*_`
 but = [
@@ -921,6 +921,8 @@ oy =`
 👻> *140 DIAMOND = Rp 20.000*
 👻> *210 DIAMOND = Rp 30.000*
 👻> *280 DIAMOND = Rp 40.000*
+👻> *MM : 31.500*
+👻> *MB : 140.000*
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 *NOTE :*
 *_JIKA MINAT BISA HUBUNGI OWNER_*`
@@ -1120,7 +1122,7 @@ ${prefix}sound13
 ${prefix}sound14
 ${prefix}sound15`
 but = [
-          { buttonId: `${prefix}rulesbot`, buttonText: { displayText: '🔱RULES BOT🔱' }, type: 1 }
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '🔱OWNER🔱' }, type: 1 }
         ]
           sendButton(from, emm, oy, but)
 break
@@ -1369,7 +1371,7 @@ case 'original':
 simple.updatePresence(from, Presence.recording)
 img =  fs.readFileSync('./poto/herman.jpg')
 teks = `Hai ${pushname} 👋${tampilUcapan}
-I'M Hêrmåñ メ Bo†z ×͜×`
+I'M Yåñz メ Bo†z ×͜×`
 trans = `BOT INFO
 🗿  _*Nama Bot : ${botname}*_
 😨  _️Nama Owner : ${ownername}_
@@ -2847,7 +2849,7 @@ let inilist = []
 for (let i of ownerNumber) {
 let vname = simple.contacts[i] != undefined ? simple.contacts[i].vname || simple.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'Hêrmåñ メ Bo†z ×͜×',
+"displayName": 'Yåñz メ Bo†z ×͜×',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
@@ -2963,28 +2965,28 @@ but = [
 { buttonId: `${prefix}dana`, buttonText: { displayText: 'DANA' }, type: 1 },
 { buttonId: `${prefix}ovo`, buttonText: { displayText: 'OVO' }, type: 1 }
 ]
-sendButton(from, "SEWA PERMANEN 15K", faketeks, but, mek)
+sendButton(from, "SEWA PERMANEN 16K", faketeks, but, mek)
 break
 case 'gopay':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "GOPAY : 083146208804", faketeks, but, mek)
+sendButton(from, "GOPAY : 085868010957", faketeks, but, mek)
 break
 case 'dana':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "DANA : 083146208804", faketeks, but, mek)
+sendButton(from, "DANA : 083103592954", faketeks, but, mek)
 break
 case 'ovo':
 simple.updatePresence(from, Presence.recording)
 but = [
 { buttonId: `${prefix}done`, buttonText: { displayText: 'OWNER 🔥' }, type: 1 }
 ]
-sendButton(from, "OVO : 083146208804", faketeks, but, mek)
+sendButton(from, "OVO : Gapunya🙏", faketeks, but, mek)
 break
 
 //━━━━━━━━━━━━━━━[ FITUR ASUPAN ]━━━━━━━━━━━━━━━━━//
@@ -3061,7 +3063,7 @@ simple.sendMessage(from, '*Pertanyaan :* '+cantik+'\n*Jawaban :* '+ tik+'%', tex
 break
 case 'hobby':
 simple.updatePresence(from, Presence.recording)
-const kan =['Coli','baca buku','Tadi','ngeliat org mandi','Nonton bokep','sepedaan','Baca wattpad','belajar','Main discord','menabung']
+const kan =['Coli','baca buku','Tadi','ngeliat org mandi','Nonton bokep','sepedaan','Baca wattpad','belajar','Main discord','menabung','Colmex']
 const hooo = kan[Math.floor(Math.random() * kan.length)]
 simple.sendMessage(from, 'Pertanyaan : *hoby*\n\nJawaban : '+ hooo, text, { quoted: ftrol })
 break
@@ -3542,7 +3544,7 @@ but = [
           { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU' }, type: 1 },
           { buttonId: `${prefix}rulesbot`, buttonText: { displayText: 'RULES' }, type: 1 }
         ]
-        sendButton(from, teks, '©Created : Hêrmåñ メ Bo†z ×͜×', but, mek)
+        sendButton(from, teks, '©Created : Yåñz メ Bo†z ×͜×', but, mek)
 break
  case 'pornhub': case 'glitch':  case 'avenger': case 'space': case 'ninjalogo': case 'marvelstudio': case 'lionlogo':case 'wolflogo':case 'steel3d':case 'wallgravity':
  if (args.length == 0) return reply(`Contoh: ${prefix + command} awok awok`)
@@ -3647,8 +3649,8 @@ _*❕RULES BOT ${botname}*_
 🐼.DILARANG TLPN/VC BOT
 
 🐼.DILARANG SPAM BOT
-( *DELAY KON*)
-🐼.DILARANG NGEBANDINGIN BOT ( *KENA MENTAL BOT NYA BAPERAN* )
+( *DELAY KONTOL*)
+🐼.DILARANG NGEBANDINGIN BOT ( *KENA MENTAL BOT NYA BAPERAN:v* )
 🐣.DAH ITU AJA BANG
 
 
@@ -3688,7 +3690,7 @@ case 'pdf':
        stst = await simple.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
 tescok = `${menunya(prefix)}`
-Sendbutdocument(from, tescok, "© Hêrmåñ メ Bo†z ×͜×*", fs.readFileSync('./poto/menu.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./poto/image/thumbnaildokumen.jpg'), filename:`Herman Chanel.pdf`, pageCount: 9999999 },[{ buttonId: `${prefix}menu`, buttonText: { displayText: 'OWNER🌺' }, type: 1 }], {quoted:fvid, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} - ${pushname}\nDownload Script`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/x-O0WHkv3uc`}}})
+Sendbutdocument(from, tescok, "© Yåñz メ Bo†z ×͜×*", fs.readFileSync('./poto/menu.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./poto/image/thumbnaildokumen.jpg'), filename:`Herman Chanel.pdf`, pageCount: 9999999 },[{ buttonId: `${prefix}menu`, buttonText: { displayText: 'OWNER🌺' }, type: 1 }], {quoted:fvid, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} - ${pushname}\nDownload Script`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/x-O0WHkv3uc`}}})
 break
 
 case 'allmenu':
@@ -3706,11 +3708,11 @@ break
 case 'bigpromo':
 simple.updatePresence(from, Presence.recording)
 tod = `
- { *BIG PROMO TAHUN BARU*}
- 1minggu menuju tahun baru promo SewaBot
-🐣 permanen RP. ~20.000~ jadi => Rp.13.000
-🐣 2minggu ~10.000~ jadi => 3.000
-🐣 Sebulan ~15.000~ jadi => 5.000
+ { *BIG PROMO BULAN MARET-APRIL*}
+ promo SewaBot
+🐣 permanen RP. ~25.000~ jadi => Rp.10.000
+🐣 2minggu ~10.000~ jadi => 4.000
+🐣 Sebulan ~18.000~ jadi => 8.000
 
 _Klik Buttonnya Kak :)_
 
